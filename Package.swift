@@ -284,7 +284,7 @@ var targets: [PackageDescription.Target] = [
 ]
 
 let package = Package(
-    name: "swift-nio-extras",
+    name: "candle-swift-nio-extras",
     products: [
         .library(name: "NIOExtras", targets: ["NIOExtras"]),
         .library(name: "CandleNIOSOCKS", targets: ["CandleNIOSOCKS"]),
