@@ -12,7 +12,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-import NIOCore
+import CandleNIOCore
 
 // MARK: - ReadDir
 public struct NFS3CallReadDir: Hashable & Sendable {

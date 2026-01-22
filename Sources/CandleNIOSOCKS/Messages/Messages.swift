@@ -12,7 +12,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-import NIOCore
+import CandleNIOCore
 
 /// Sent by the client and received by the server.
 public enum ClientMessage: Hashable, Sendable {

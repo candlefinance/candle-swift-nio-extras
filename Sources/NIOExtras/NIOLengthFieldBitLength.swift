@@ -12,7 +12,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-import NIOCore
+import CandleNIOCore
 
 /// A struct to describe the length of a piece of data in bits
 public struct NIOLengthFieldBitLength: Sendable {

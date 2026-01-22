@@ -12,8 +12,8 @@
 //
 //===----------------------------------------------------------------------===//
 
-import HTTPTypes
-import NIOCore
+import CandleHTTPTypes
+import CandleNIOCore
 import NIOHTTPTypes
 
 /// HTTP request handler sending a configurable stream of zeroes. Uses HTTPTypes request/response parts.

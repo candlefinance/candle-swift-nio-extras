@@ -12,7 +12,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-import NIOCore
+import CandleNIOCore
 
 public struct RPCFragmentHeader: Hashable & Sendable {
     public var length: UInt32

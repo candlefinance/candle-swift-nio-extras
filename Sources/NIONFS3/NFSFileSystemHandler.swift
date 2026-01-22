@@ -12,7 +12,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-import NIOCore
+import CandleNIOCore
 
 /// `ChannelHandler` which implements NFS calls & replies the user implements as a `NFS3FileSystemNoAuth`.
 ///

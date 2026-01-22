@@ -12,7 +12,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-import NIOCore
+import CandleNIOCore
 
 public struct NFS3CallDecoder: NIOSingleStepByteToMessageDecoder, Sendable {
     public typealias InboundOut = RPCNFS3Call

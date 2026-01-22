@@ -12,9 +12,9 @@
 //
 //===----------------------------------------------------------------------===//
 
-import CNIOLinux
+import CandleCNIOLinux
 import Dispatch
-import NIOCore
+import CandleNIOCore
 
 #if canImport(Darwin)
 import Darwin

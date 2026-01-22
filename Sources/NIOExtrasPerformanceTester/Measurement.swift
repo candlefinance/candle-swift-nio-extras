@@ -13,7 +13,7 @@
 //===----------------------------------------------------------------------===//
 
 import Dispatch
-import NIOCore
+import CandleNIOCore
 
 public func measure(_ fn: () throws -> Int) rethrows -> [Double] {
     func measureOne(_ fn: () throws -> Int) rethrows -> Double {

@@ -12,8 +12,8 @@
 //
 //===----------------------------------------------------------------------===//
 
-import NIOConcurrencyHelpers
-import NIOCore
+import CandleNIOConcurrencyHelpers
+import CandleNIOCore
 
 /// `HTTPResumableUploadContext` manages ongoing uploads.
 public final class HTTPResumableUploadContext: Sendable {

@@ -11,7 +11,7 @@
 // SPDX-License-Identifier: Apache-2.0
 //
 //===----------------------------------------------------------------------===//
-import NIOCore
+import CandleNIOCore
 
 /// Base type for errors from NIOExtras
 public protocol NIOExtrasError: Equatable, Error {}

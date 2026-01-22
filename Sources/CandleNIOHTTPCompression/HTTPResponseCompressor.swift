@@ -12,9 +12,9 @@
 //
 //===----------------------------------------------------------------------===//
 
-import CNIOExtrasZlib
-import NIOCore
-import NIOHTTP1
+import CandleCNIOExtrasZlib
+import CandleNIOCore
+import CandleNIOHTTP1
 
 extension StringProtocol {
     /// Test if this string starts with the same unicode scalars as the given string, `prefix`.

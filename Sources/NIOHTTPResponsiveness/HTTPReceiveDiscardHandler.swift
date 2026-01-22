@@ -12,8 +12,8 @@
 //
 //===----------------------------------------------------------------------===//
 
-import HTTPTypes
-import NIOCore
+import CandleHTTPTypes
+import CandleNIOCore
 import NIOHTTPTypes
 
 /// HTTP request handler that receives arbitrary bytes and discards them

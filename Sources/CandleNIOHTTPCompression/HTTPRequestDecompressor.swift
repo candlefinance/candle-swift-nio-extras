@@ -12,9 +12,9 @@
 //
 //===----------------------------------------------------------------------===//
 
-import CNIOExtrasZlib
-import NIOCore
-import NIOHTTP1
+import CandleCNIOExtrasZlib
+import CandleNIOCore
+import CandleNIOHTTP1
 
 /// Channel hander to decompress incoming HTTP data.
 public final class NIOHTTPRequestDecompressor: ChannelDuplexHandler, RemovableChannelHandler {

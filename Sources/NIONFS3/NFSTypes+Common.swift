@@ -12,7 +12,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-import NIOCore
+import CandleNIOCore
 
 // MARK: - NIONFS3 Specifics
 public struct RPCNFS3Call: Hashable & Sendable {

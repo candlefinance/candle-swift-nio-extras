@@ -12,7 +12,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-import NIOCore
+import CandleNIOCore
 
 // MARK: NIOPCAPRingBuffer
 /// Storage for the most recent set of packets captured subject to constraints.

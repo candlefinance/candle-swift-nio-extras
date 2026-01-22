@@ -12,8 +12,8 @@
 //
 //===----------------------------------------------------------------------===//
 
-import HTTPTypes
-import NIOCore
+import CandleHTTPTypes
+import CandleNIOCore
 
 /// The parts of a complete HTTP request.
 ///

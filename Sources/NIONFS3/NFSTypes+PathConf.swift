@@ -12,7 +12,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-import NIOCore
+import CandleNIOCore
 
 // MARK: - PathConf
 public struct NFS3CallPathConf: Hashable & Sendable {

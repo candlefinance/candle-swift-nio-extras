@@ -12,10 +12,10 @@
 //
 //===----------------------------------------------------------------------===//
 
-import NIOCore
+import CandleNIOCore
 import NIOExtras
-import NIOHTTP1
-import NIOPosix
+import CandleNIOHTTP1
+import CandleNIOPosix
 
 class SendSimpleRequestHandler: ChannelInboundHandler {
     typealias InboundIn = HTTPClientResponsePart

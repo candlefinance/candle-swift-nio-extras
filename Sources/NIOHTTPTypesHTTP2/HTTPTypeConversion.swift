@@ -12,8 +12,8 @@
 //
 //===----------------------------------------------------------------------===//
 
-import HTTPTypes
-import NIOHPACK
+import CandleHTTPTypes
+import CandleNIOHPACK
 
 private enum HTTP2TypeConversionError: Error {
     case multipleMethod

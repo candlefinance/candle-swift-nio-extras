@@ -12,9 +12,9 @@
 //
 //===----------------------------------------------------------------------===//
 
-import NIOCore
+import CandleNIOCore
 import NIOExtras
-import NIOHTTP1
+import CandleNIOHTTP1
 
 class HTTP1ThreadedRawPerformanceTest: HTTP1ThreadedPerformanceTest {
     init() {

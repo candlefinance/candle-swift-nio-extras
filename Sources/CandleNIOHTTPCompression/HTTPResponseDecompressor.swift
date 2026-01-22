@@ -12,8 +12,8 @@
 //
 //===----------------------------------------------------------------------===//
 
-import NIOCore
-import NIOHTTP1
+import CandleNIOCore
+import CandleNIOHTTP1
 
 /// Duplex channel handler which will accept deflate and gzip encoded responses and decompress them.
 public final class NIOHTTPResponseDecompressor: ChannelDuplexHandler, RemovableChannelHandler {

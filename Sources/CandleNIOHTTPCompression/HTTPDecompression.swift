@@ -12,8 +12,8 @@
 //
 //===----------------------------------------------------------------------===//
 
-import CNIOExtrasZlib
-import NIOCore
+import CandleCNIOExtrasZlib
+import CandleNIOCore
 
 /// Namespace for decompression code.
 public enum NIOHTTPDecompression: Sendable {

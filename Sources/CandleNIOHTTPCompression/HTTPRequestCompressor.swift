@@ -12,9 +12,9 @@
 //
 //===----------------------------------------------------------------------===//
 
-import CNIOExtrasZlib
-import NIOCore
-import NIOHTTP1
+import CandleCNIOExtrasZlib
+import CandleNIOCore
+import CandleNIOHTTP1
 
 /// ``NIOHTTPRequestCompressor`` is an outbound channel handler that handles automatic streaming compression of
 /// HTTP requests.

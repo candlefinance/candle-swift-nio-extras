@@ -12,7 +12,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-import NIOCore
+import CandleNIOCore
 
 // MARK: - Lookup
 public struct NFS3CallLookup: Hashable & Sendable {

@@ -12,8 +12,8 @@
 //
 //===----------------------------------------------------------------------===//
 
-import HTTPTypes
-import NIOHTTP1
+import CandleHTTPTypes
+import CandleNIOHTTP1
 
 public struct HTTP1TypeConversionError: Error, Equatable {
     private enum Internal {

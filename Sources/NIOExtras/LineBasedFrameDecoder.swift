@@ -12,7 +12,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-import NIOCore
+import CandleNIOCore
 
 /// A decoder that splits incoming `ByteBuffer`s around line end
 /// character(s) (`'\n'` or `'\r\n'`).
@@ -61,7 +61,7 @@ public class LineBasedFrameDecoder: ByteToMessageDecoder & NIOSingleStepByteToMe
     /// - Parameters:
     ///   - buffer: Buffer containing data to decode.
     /// - Returns: The decoded object or `nil` if we require more bytes.
-    public func decode(buffer: inout NIOCore.ByteBuffer) throws -> NIOCore.ByteBuffer? {
+    public func decode(buffer: inout CandleNIOCore.ByteBuffer) throws -> CandleNIOCore.ByteBuffer? {
         try self.findNextFrame(buffer: &buffer)
     }
 

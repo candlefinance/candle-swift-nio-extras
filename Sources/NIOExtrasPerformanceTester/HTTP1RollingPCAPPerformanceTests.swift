@@ -12,7 +12,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-import NIOCore
+import CandleNIOCore
 import NIOExtras
 
 class HTTP1ThreadedRollingPCapPerformanceTest: HTTP1ThreadedPerformanceTest {

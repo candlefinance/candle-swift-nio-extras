@@ -12,7 +12,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-import NIOCore
+import CandleNIOCore
 
 @preconcurrency
 public protocol NFS3FileSystemNoAuth: Sendable {

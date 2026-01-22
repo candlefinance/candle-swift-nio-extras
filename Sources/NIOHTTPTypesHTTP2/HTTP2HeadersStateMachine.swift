@@ -12,8 +12,8 @@
 //
 //===----------------------------------------------------------------------===//
 
-import NIOHPACK
-import NIOHTTP2
+import CandleNIOHPACK
+import CandleNIOHTTP2
 
 extension HPACKHeaders {
     /// Whether this `HTTPHeaders` corresponds to a final response or not.

@@ -12,10 +12,10 @@
 //
 //===----------------------------------------------------------------------===//
 
-import HTTPTypes
-import NIOCore
-import NIOHPACK
-import NIOHTTP2
+import CandleHTTPTypes
+import CandleNIOCore
+import CandleNIOHPACK
+import CandleNIOHTTP2
 import NIOHTTPTypes
 
 // MARK: - Client

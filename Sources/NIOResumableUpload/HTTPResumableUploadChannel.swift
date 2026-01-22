@@ -12,8 +12,8 @@
 //
 //===----------------------------------------------------------------------===//
 
-import Atomics
-import NIOCore
+import CandleAtomics
+import CandleNIOCore
 import NIOHTTPTypes
 
 /// The child channel that persists across upload resumption attempts, delivering data as if it is

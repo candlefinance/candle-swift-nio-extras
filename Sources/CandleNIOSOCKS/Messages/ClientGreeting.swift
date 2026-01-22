@@ -12,7 +12,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-import NIOCore
+import CandleNIOCore
 
 /// Clients begin the SOCKS handshake process
 /// by providing an array of suggested authentication

@@ -12,8 +12,8 @@
 //
 //===----------------------------------------------------------------------===//
 
-import NIOCore
-import NIOSSL
+import CandleNIOCore
+import CandleNIOSSL
 
 /// A protocol that defines a certificate reloader.
 ///

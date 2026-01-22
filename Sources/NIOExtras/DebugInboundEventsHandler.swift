@@ -11,7 +11,7 @@
 // SPDX-License-Identifier: Apache-2.0
 //
 //===----------------------------------------------------------------------===//
-import NIOCore
+import CandleNIOCore
 
 #if canImport(Darwin)
 import Darwin

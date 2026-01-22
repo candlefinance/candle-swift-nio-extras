@@ -12,7 +12,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-import NIOCore
+import CandleNIOCore
 
 // MARK: - FSStat
 public struct NFS3CallFSStat: Hashable & Sendable {

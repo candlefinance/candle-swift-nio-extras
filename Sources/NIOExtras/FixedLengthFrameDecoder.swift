@@ -12,7 +12,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-import NIOCore
+import CandleNIOCore
 
 ///
 /// A decoder that splits the received `ByteBuffer` by a fixed number

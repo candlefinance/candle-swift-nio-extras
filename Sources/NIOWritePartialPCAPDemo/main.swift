@@ -12,10 +12,10 @@
 //
 //===----------------------------------------------------------------------===//
 
-import NIOCore
+import CandleNIOCore
 import NIOExtras
-import NIOHTTP1
-import NIOPosix
+import CandleNIOHTTP1
+import CandleNIOPosix
 
 /// Trigger recording pcap data when a "precondition failed" is seen.
 class TriggerPCAPHandler: ChannelInboundHandler {

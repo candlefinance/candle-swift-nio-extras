@@ -12,7 +12,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-import NIOCore
+import CandleNIOCore
 
 public struct RPCNFS3ProcedureID: Hashable & Sendable {
     public internal(set) var program: UInt32

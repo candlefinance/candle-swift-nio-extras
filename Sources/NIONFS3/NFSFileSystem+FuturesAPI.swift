@@ -12,7 +12,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-import NIOCore
+import CandleNIOCore
 
 extension NFS3FileSystemNoAuth {
     public func mount(_ call: MountCallMount, eventLoop: EventLoop) -> EventLoopFuture<MountReplyMount> {

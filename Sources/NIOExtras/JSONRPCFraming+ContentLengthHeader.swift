@@ -12,7 +12,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-import NIOCore
+import CandleNIOCore
 
 extension NIOJSONRPCFraming {
     /// ``ContentLengthHeaderFrameEncoder`` is responsible for emitting JSON-RPC wire protocol with 'Content-Length'

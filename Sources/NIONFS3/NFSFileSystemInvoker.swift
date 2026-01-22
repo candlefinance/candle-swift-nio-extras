@@ -12,7 +12,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-import NIOCore
+import CandleNIOCore
 
 internal protocol NFS3FileSystemResponder {
     func sendSuccessfulReply(_ reply: NFS3Reply, call: RPCNFS3Call)

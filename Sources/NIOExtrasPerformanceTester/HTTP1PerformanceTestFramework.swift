@@ -12,10 +12,10 @@
 //
 //===----------------------------------------------------------------------===//
 
-import NIOConcurrencyHelpers
-import NIOCore
-import NIOHTTP1
-import NIOPosix
+import CandleNIOConcurrencyHelpers
+import CandleNIOCore
+import CandleNIOHTTP1
+import CandleNIOPosix
 
 // MARK: Handlers
 final class SimpleHTTPServer: ChannelInboundHandler {

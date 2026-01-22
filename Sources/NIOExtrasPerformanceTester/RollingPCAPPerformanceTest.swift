@@ -12,8 +12,8 @@
 //
 //===----------------------------------------------------------------------===//
 
-import NIOCore
-import NIOEmbedded
+import CandleNIOCore
+import CandleNIOEmbedded
 import NIOExtras
 
 final class RollingPCAPPerformanceTest: Benchmark {

@@ -12,7 +12,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-import HTTPTypes
+import CandleHTTPTypes
 import StructuredFieldValues
 
 /// Implements `draft-ietf-httpbis-resumable-upload-01` internet-draft.

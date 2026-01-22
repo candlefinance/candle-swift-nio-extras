@@ -12,15 +12,15 @@
 //
 //===----------------------------------------------------------------------===//
 
-import AsyncAlgorithms
-import Logging
-import NIOConcurrencyHelpers
-import NIOSSL
-import ServiceLifecycle
+import CandleAsyncAlgorithms
+import CandleLogging
+import CandleNIOConcurrencyHelpers
+import CandleNIOSSL
+import CandleServiceLifecycle
 import SwiftASN1
 import X509
 
-import struct NIOCore.TimeAmount
+import struct CandleNIOCore.TimeAmount
 
 #if canImport(FoundationEssentials)
 import FoundationEssentials

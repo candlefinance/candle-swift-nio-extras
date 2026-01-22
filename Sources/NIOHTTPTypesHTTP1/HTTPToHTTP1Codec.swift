@@ -12,9 +12,9 @@
 //
 //===----------------------------------------------------------------------===//
 
-import HTTPTypes
-import NIOCore
-import NIOHTTP1
+import CandleHTTPTypes
+import CandleNIOCore
+import CandleNIOHTTP1
 import NIOHTTPTypes
 
 /// A simple channel handler that translates shared HTTP types into HTTP/1 messages,

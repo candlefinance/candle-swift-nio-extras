@@ -12,7 +12,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-import NIOCore
+import CandleNIOCore
 
 public final class NFS3FileSystemServerHandler<FS: NFS3FileSystemNoAuth> {
     public typealias InboundIn = ByteBuffer

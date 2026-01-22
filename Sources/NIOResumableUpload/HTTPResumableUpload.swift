@@ -12,9 +12,9 @@
 //
 //===----------------------------------------------------------------------===//
 
-import HTTPTypes
-import NIOConcurrencyHelpers
-import NIOCore
+import CandleHTTPTypes
+import CandleNIOConcurrencyHelpers
+import CandleNIOCore
 import NIOHTTPTypes
 
 /// `HTTPResumableUpload` tracks a logical upload. It manages an `HTTPResumableUploadChannel` and

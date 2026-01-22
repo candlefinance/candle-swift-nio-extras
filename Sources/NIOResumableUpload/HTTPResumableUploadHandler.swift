@@ -12,7 +12,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-import NIOCore
+import CandleNIOCore
 import NIOHTTPTypes
 
 /// A channel handler that translates resumable uploads into regular uploads, and passes through

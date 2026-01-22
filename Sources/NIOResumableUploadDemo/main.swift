@@ -13,12 +13,12 @@
 //===----------------------------------------------------------------------===//
 
 import Foundation
-import HTTPTypes
-import NIOCore
-import NIOHTTP1
+import CandleHTTPTypes
+import CandleNIOCore
+import CandleNIOHTTP1
 import NIOHTTPTypes
 import NIOHTTPTypesHTTP1
-import NIOPosix
+import CandleNIOPosix
 import NIOResumableUpload
 
 @available(macOS 10.15.4, iOS 13.4, watchOS 6.2, tvOS 13.4, *)

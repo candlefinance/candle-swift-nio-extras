@@ -12,7 +12,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-import NIOCore
+import CandleNIOCore
 
 /// ``NIORequestResponseWithIDHandler`` receives a `Request` alongside an `EventLoopPromise<Response>` from the
 /// `Channel`'s outbound side. It will fulfill the promise with the `Response` once it's received from the `Channel`'s

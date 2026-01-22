@@ -12,7 +12,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-import NIOCore
+import CandleNIOCore
 
 // MARK: - Getattr
 public struct NFS3CallGetAttr: Hashable & Sendable {

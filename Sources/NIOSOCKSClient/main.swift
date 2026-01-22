@@ -12,9 +12,9 @@
 //
 //===----------------------------------------------------------------------===//
 
-import NIOCore
-import NIOPosix
-import NIOSOCKS
+import CandleNIOCore
+import CandleNIOPosix
+import CandleNIOSOCKS
 
 class EchoHandler: ChannelInboundHandler {
     typealias InboundIn = ByteBuffer

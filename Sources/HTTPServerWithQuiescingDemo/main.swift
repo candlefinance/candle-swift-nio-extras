@@ -13,10 +13,10 @@
 //===----------------------------------------------------------------------===//
 
 import Dispatch
-import NIOCore
+import CandleNIOCore
 import NIOExtras
-import NIOHTTP1
-import NIOPosix
+import CandleNIOHTTP1
+import CandleNIOPosix
 
 private final class HTTPHandler: ChannelInboundHandler {
     typealias InboundIn = HTTPServerRequestPart

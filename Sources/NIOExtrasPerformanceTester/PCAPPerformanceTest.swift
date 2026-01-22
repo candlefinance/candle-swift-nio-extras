@@ -13,8 +13,8 @@
 //===----------------------------------------------------------------------===//
 
 import Foundation
-import NIOCore
-import NIOEmbedded
+import CandleNIOCore
+import CandleNIOEmbedded
 import NIOExtras
 
 final class PCAPPerformanceTest: Benchmark {

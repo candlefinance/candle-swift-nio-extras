@@ -12,9 +12,9 @@
 //
 //===----------------------------------------------------------------------===//
 
-import Algorithms
-import HTTPTypes
-import NIOCore
+import CandleAlgorithms
+import CandleHTTPTypes
+import CandleNIOCore
 import NIOHTTPTypes
 
 /// A basic request multiplexer that identifies which request type (config, download, upload) is requested and adds the

@@ -12,7 +12,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-import NIOCore
+import CandleNIOCore
 
 public struct NFS3CallEncoder: MessageToByteEncoder, Sendable {
     public typealias OutboundIn = RPCNFS3Call

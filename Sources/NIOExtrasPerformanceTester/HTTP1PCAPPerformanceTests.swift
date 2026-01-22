@@ -13,8 +13,8 @@
 //===----------------------------------------------------------------------===//
 
 import Foundation
-import NIOConcurrencyHelpers
-import NIOCore
+import CandleNIOConcurrencyHelpers
+import CandleNIOCore
 import NIOExtras
 
 class HTTP1ThreadedPCapPerformanceTest: HTTP1ThreadedPerformanceTest {
