@@ -96,54 +96,6 @@ var targets: [PackageDescription.Target] = [
         ],
         swiftSettings: strictConcurrencySettings
     ),
-    .testTarget(
-        name: "NIONFS3Tests",
-        dependencies: [
-            "NIONFS3",
-            .product(name: "CandleNIOCore", package: "candle-swift-nio"),
-            .product(name: "CandleNIOEmbedded", package: "candle-swift-nio"),
-            .product(name: "NIOTestUtils", package: "candle-swift-nio"),
-        ],
-        swiftSettings: strictConcurrencySettings
-    ),
-    .target(
-        name: "NIOHTTPTypes",
-        dependencies: [
-            .product(name: "CandleHTTPTypes", package: "candle-swift-http-types"),
-            .product(name: "CandleNIOCore", package: "candle-swift-nio"),
-        ],
-        swiftSettings: strictConcurrencySettings
-    ),
-    .target(
-        name: "NIOHTTPTypesHTTP1",
-        dependencies: [
-            "NIOHTTPTypes",
-            .product(name: "CandleNIOHTTP1", package: "candle-swift-nio"),
-        ],
-        swiftSettings: strictConcurrencySettings
-    ),
-    .target(
-        name: "NIOHTTPTypesHTTP2",
-        dependencies: [
-            "NIOHTTPTypes",
-            .product(name: "CandleNIOHTTP2", package: "candle-swift-nio-http2"),
-        ],
-        swiftSettings: strictConcurrencySettings
-    ),
-    .testTarget(
-        name: "NIOHTTPTypesHTTP1Tests",
-        dependencies: [
-            "NIOHTTPTypesHTTP1"
-        ],
-        swiftSettings: strictConcurrencySettings
-    ),
-    .testTarget(
-        name: "NIOHTTPTypesHTTP2Tests",
-        dependencies: [
-            "NIOHTTPTypesHTTP2"
-        ],
-        swiftSettings: strictConcurrencySettings
-    ),
 ]
 
 let package = Package(
@@ -151,9 +103,6 @@ let package = Package(
     products: [
         .library(name: "CandleNIOSOCKS", targets: ["CandleNIOSOCKS"]),
         .library(name: "CandleNIOHTTPCompression", targets: ["CandleNIOHTTPCompression"]),
-        .library(name: "NIOHTTPTypes", targets: ["NIOHTTPTypes"]),
-        .library(name: "NIOHTTPTypesHTTP1", targets: ["NIOHTTPTypesHTTP1"]),
-        .library(name: "NIOHTTPTypesHTTP2", targets: ["NIOHTTPTypesHTTP2"]),
     ],
     dependencies: [
         .package(name: "candle-swift-nio", url: "https://github.com/candlefinance/candle-swift-nio.git", branch: "fix-candle-2.82.1"),
